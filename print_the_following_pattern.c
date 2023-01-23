@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h> 
 int main()
-{ int n; scanf("%d",&n); int i,j; for(i=1;i<=n;i++) { for(j=1;j<=n;j++) { if(j==i) { printf("0"); } else printf("x"); } printf("
+{ int j,a,i; scanf("%d",&a); for(i=a;i>=1;i--) { for(j=a;j>=1;j--) { printf("%d ",j); } printf("
 "); }}
